@@ -1,0 +1,44 @@
+.container {
+  height: 50vh;
+  width: 50vh;
+  background-color: red;
+}
+
+.cajamediana {
+  height: 25vh;
+  width: 25vh;
+  background-color: purple;
+  position: absolute;
+  left: 12.5vh;
+  top:  12.5vh;
+
+}
+
+.cajapequena {
+  height: 12.5vh;
+  width: 12.5vh;
+  background-color: yellow;
+  position: absolute;
+  top: 6.25vh;
+  left: 6.25vh;
+}
+
+.container2 {
+  background-color: blue;
+  height: 50vh;
+  width: 50vh;
+}
+
+.cajapequena2 {
+  background-color: black;
+  height: 12.5vh;
+  width: 12.5vh;
+}
+
+.cajamediana2 {
+  background-color: green;
+  height: 25vh;
+  width: 25vh;
+  position: relative;  
+  left: 12.5vh;
+}
