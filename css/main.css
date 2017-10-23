@@ -1,44 +1,46 @@
-.container {
+.box-big {
   height: 50vh;
   width: 50vh;
   background-color: red;
 }
 
-.cajamediana {
+.box-medium {
   height: 25vh;
   width: 25vh;
   background-color: purple;
-  position: absolute;
+  position: relative;
+  top: 12.5vh;
   left: 12.5vh;
-  top:  12.5vh;
-
 }
 
-.cajapequena {
+.box-small {
   height: 12.5vh;
   width: 12.5vh;
   background-color: yellow;
-  position: absolute;
-  top: 6.25vh;
-  left: 6.25vh;
+  position: relative;
+  left: 12.5vh;
+  bottom: 12.5vh;
 }
 
-.container2 {
-  background-color: blue;
+.box-big-1 {
   height: 50vh;
   width: 50vh;
+  background-color: blue;
 }
 
-.cajapequena2 {
-  background-color: black;
-  height: 12.5vh;
-  width: 12.5vh;
-}
-
-.cajamediana2 {
-  background-color: green;
+.box-medium-1 {
   height: 25vh;
   width: 25vh;
-  position: relative;  
+  background-color: green;
+  position: relative;
+  top: 12.5vh;
   left: 12.5vh;
+}
+
+.box-small-1 {
+  height: 12.5vh;
+  width: 12.5vh;
+  background-color: black;
+  position: absolute;
+  bottom: 36.25vh;
 }
