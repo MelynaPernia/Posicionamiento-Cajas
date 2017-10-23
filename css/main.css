@@ -26,6 +26,7 @@
   height: 50vh;
   width: 50vh;
   background-color: blue;
+  position: relative;
 }
 
 .box-medium-1 {
@@ -42,5 +43,5 @@
   width: 12.5vh;
   background-color: black;
   position: absolute;
-  bottom: 36.25vh;
+  bottom: 37.5vh;
 }
